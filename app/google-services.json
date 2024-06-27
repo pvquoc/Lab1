@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "894004840460",
+    "project_id": "and103-3955c",
+    "storage_bucket": "and103-3955c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:894004840460:android:e4b274d233a4076027c629",
+        "android_client_info": {
+          "package_name": "fpl.poly.nhom9.lab1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcnNEsw0P-08GOThNXLzD7GTPJz_RGmWE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
