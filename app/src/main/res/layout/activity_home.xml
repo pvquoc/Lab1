@@ -9,12 +9,37 @@
     android:gravity="center"
     >
 
-    <com.airbnb.lottie.LottieAnimationView
-        android:id="@+id/animationView"
-        android:layout_width="200dp"
-        android:layout_height="300dp"
-        app:lottie_autoPlay="true"
-        android:src="@drawable/img"
-        app:lottie_loop="true" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:id="@+id/recyclerview"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/btnlogiut"
+            android:background="#C6FF00"
+            android:text="LOG OUT"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="21dp"/>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/baseline_add_24"
+
+            android:id="@+id/btnadd"
+            />
+
+    </LinearLayout>
 
 </LinearLayout>

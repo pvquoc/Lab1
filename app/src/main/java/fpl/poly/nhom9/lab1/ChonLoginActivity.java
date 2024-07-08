@@ -24,7 +24,7 @@ Button btnloginemail,btnloginphone;
         btnloginphone.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(ChonLoginActivity.this,MainActivity.class));
+                startActivity(new Intent(ChonLoginActivity.this,ChonLoginActivity.class));
             }
         });
     }
